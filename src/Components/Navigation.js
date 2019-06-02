@@ -1,17 +1,16 @@
 import React from 'react';
 import { NavLink} from 'react-router-dom';
-import {Nav, NavItem, Navbar,NavbarBrand} from 'reactstrap';
+import {Nav, NavItem, Navbar,NavbarBrand, Collapse, NavbarToggler} from 'reactstrap';
 import './../styles/Navigation.css';
-
 
 
 const  Navigation =(props)=>(
 
-         <div>   
+        <div>   
           <Navbar  expand="md">
           <NavbarBrand href="/"> <img src="https://i.ibb.co/SNpxVVx/LOGO-MIMI.png" alt= "Logo" className="logo"></img></NavbarBrand>
-            <Nav className="ml-auto text-nav" navbar>
-               
+                  
+            <Nav className="ml-auto text-nav" navbar>               
                 
                 <NavItem className = "link-nav"><NavLink to="/"><li>HOME</li></NavLink></NavItem>
                 <NavItem><NavLink to="/About"><li>SOBRE MI</li></NavLink></NavItem> 
@@ -19,9 +18,8 @@ const  Navigation =(props)=>(
                 <NavItem><NavLink to="/Contact"><li>CONTACTO</li></NavLink></NavItem>
                                 
             </Nav>         
-
-          </Navbar>
            
+          </Navbar>       
            
            
             {props.children}
