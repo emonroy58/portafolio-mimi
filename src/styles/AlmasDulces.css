@@ -1,0 +1,57 @@
+.content{
+    display:grid;
+    max-width: 90%;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 200px;
+}
+
+.almas-dulces{
+ width: 105%;
+ height: 500%;
+}
+
+.img-dashb{
+    width: 105%;
+    height: 450%; 
+}
+.img-trans{
+    width: 80%;
+    height: 500%; 
+  
+}
+.content-sub-img-trans{
+    padding: 40px;
+    margin-left: 35%;
+    
+}
+
+.content-sub-img, .content-sub{
+    padding: 15px;
+    margin: 20px; /*separar imagen de texto*/
+  
+}
+
+.content-title{
+    text-align: center;  
+    color: grey;
+    margin-left: 170px;
+}
+.title-under{
+    text-decoration:underline;
+    text-decoration-color:gray; 
+    font-size:1em;
+}
+.content-text{
+    text-align: justify;
+    font-size: 85%;
+    margin-right: -140px;
+    margin-left: 50px;
+}
+
+
+
+.ref-almas{
+    margin-left: 80%;
+    color:rgb(233, 193, 120);
+    font-size: 1.5em;
+}
