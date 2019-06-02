@@ -1,13 +1,16 @@
-nav{
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.text-nav{
     display: flex;
     justify-content: space-between;
     /*background: rgb(230, 223, 214);*/
     align-items: center;
     padding-right: 20px;
     scroll-padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
 
 }
-
 
 .logo{
     position: relative;
@@ -29,10 +32,18 @@ nav ul li {
 
 nav ul li  a{
   text-decoration: none;
-
+  
 } 
 
+li{
+  color: grey;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
+.avatar{
+  height: 20%;
+}
 
 
 
